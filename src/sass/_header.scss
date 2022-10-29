@@ -1,0 +1,62 @@
+.header {
+  background-color: $cardBg;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  margin-right: auto;
+}
+
+.logo {
+  margin-right: 433px;
+  padding-top: 39px;
+  padding-bottom: 38px;
+
+  font-family: 'Homemade Apple';
+  font-size: 18px;
+  line-height: 2.17;
+
+  color: $blackBg;
+}
+
+.nav-list {
+  display: flex;
+  gap: 31px;
+}
+
+.nav-link {
+  padding-top: 47px;
+  padding-bottom: 47px;
+
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: $accentColor;
+}
+
+.header-btn {
+  padding: 14px 24px;
+  min-width: 150px;
+
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+
+  color: $accentColor;
+  background-color: $whiteColor;
+  border-color: $accentColor;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: $whiteColor;
+  background-color: $accentColor;
+}

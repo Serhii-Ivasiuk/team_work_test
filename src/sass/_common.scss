@@ -1,6 +1,54 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
 body {
-    font-family: 'Roboto', sans-serif;
-        color: $mainColor;
-        background-color: $whiteColor;
+  font-family: 'Roboto', sans-serif;
+  color: $mainColor;
+  background-color: $whiteColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1440;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.link {
+  display: inline-block;
+
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
