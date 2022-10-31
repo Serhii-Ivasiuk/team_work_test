@@ -1,0 +1,66 @@
+/*Завдані інд параметри контейнеру (параметри цієї секції не відповідають базовим параметрам контейнеру)*/
+.container-test {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Posts Tall*/
+.posts-title {
+  margin-top: 0;
+  margin-bottom: 23px;
+  padding-top: 96px;
+
+  font-size: 32px;
+  line-height: calc(38 / 32);
+  text-align: center;
+
+  color: $mainColor;
+}
+
+.posts-text {
+  margin-top: 0;
+  margin-bottom: 57px;
+
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-align: center;
+}
+
+.posts-list {
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.posts-item {
+  flex-basis: calc((100% - 30px * (4 - 1)) / 4);
+}
+
+.posts-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.posts-wrappe {
+  padding: 24px;
+  background-color: $cardBg;
+}
+
+.posts-subtitle {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 74px;
+
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: $mainColor;
+}
+
+.posts-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(19 / 14);
+
+  color: $mainColor;
+}
