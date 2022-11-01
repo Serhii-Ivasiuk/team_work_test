@@ -1,5 +1,13 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+} 
 body {
   font-family: 'Roboto', sans-serif;
   color: $mainColor;
