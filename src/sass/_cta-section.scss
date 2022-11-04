@@ -1,0 +1,66 @@
+.cta-section {
+  background-color: $accentColor;
+}
+.cta-container {
+  display: flex;
+  padding-right: 235px;
+  padding-left: 235px;
+  justify-content: space-between;
+}
+
+.cta-title {
+  padding-top: 81px;
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.41;
+  color: $mainColor;
+}
+
+.sign-up {
+  padding-bottom: 69px;
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.41;
+  color: $mainColor;
+}
+.cta-btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  padding: 14px 24px;
+  justify-content: center;
+  color: $whiteColor;
+  background-color: $blackBg;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  border: 1px solid $mainColor;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  padding: 14px 24px;
+  justify-content: center;
+  color: $mainColor;
+  font-size: 18px;
+  line-height: 1.22;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid $mainColor;
+  border-radius: 5px;
+}
+.cta-btns-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: $accentColor;
+  background-color: $grayBg;
+  border: 1px solid $mainColor;
+  cursor: pointer;
+}
