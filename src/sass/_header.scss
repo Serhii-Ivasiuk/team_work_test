@@ -5,15 +5,18 @@
 .header-container {
   display: flex;
   align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.navigation {
-  display: flex;
-  margin-right: auto;
+.logo-wrap {
+  padding-left: 40px;
+  flex-basis: 25%;
 }
 
 .logo {
-  margin-right: 433px;
   padding-top: 39px;
   padding-bottom: 38px;
 
@@ -22,6 +25,12 @@
   line-height: 2.17;
 
   color: $blackBg;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-basis: 50%;
 }
 
 .nav-list {
@@ -42,8 +51,14 @@
   color: $accentColor;
 }
 
+.btn-wrap {
+  display: flex;
+  justify-content: end;
+  flex-basis: 25%;
+}
+
 .header-btn {
-  padding: 14px 24px;
+  padding: 10px 20px;
   min-width: 150px;
 
   font-size: 18px;
@@ -51,7 +66,6 @@
   text-transform: uppercase;
 
   color: $accentColor;
-  background-color: $whiteColor;
   border-color: $accentColor;
 }
 
