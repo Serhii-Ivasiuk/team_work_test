@@ -1,0 +1,44 @@
+.hero-section {
+
+}
+
+.hero-container {
+    display: flex;
+    justify-content: right;
+    background-color: $grayBg;
+}
+
+.hero-left-part {
+    width: 721px;
+    margin-right: 125px;
+    margin-left: 162px;
+}
+
+.hero-title {
+    margin-top: 154px;
+    margin-bottom: 45px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: calc(69/56);
+    color:$mainColor;
+}
+
+.hero-text {
+    margin-bottom: 52px;
+    font-size: 20px;
+    line-height: calc(28/20);
+    color:$mainColor;
+}
+
+.hero-button {
+    padding: 23px 24px 15px 25px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    line-height: calc(21px/18px);
+    text-transform: uppercase;
+    color:$whiteColor;
+    background-color:$accentColor;
+    border-color: transparent;
+    border-radius: 5px;
+}
