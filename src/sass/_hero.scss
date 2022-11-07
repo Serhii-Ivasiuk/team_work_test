@@ -1,7 +1,3 @@
-.hero-section {
-
-}
-
 .hero-container {
     display: flex;
     justify-content: right;
@@ -42,4 +38,11 @@
     border-color: transparent;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color:$accentColor;
+    background-color:$whiteColor;
+    border-color:$accentColor;
 }
