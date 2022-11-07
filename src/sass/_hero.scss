@@ -31,7 +31,7 @@
 }
 
 .hero-button {
-    padding: 23px 24px 15px 25px;
+    padding: 19px 24px;
     width: 200px;
     height: 60px;
     font-size: 18px;
@@ -41,4 +41,5 @@
     background-color:$accentColor;
     border-color: transparent;
     border-radius: 5px;
+    cursor: pointer;
 }
