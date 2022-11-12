@@ -4,12 +4,25 @@
 
 .header-container {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
+<<<<<<< Updated upstream
 .navigation {
   display: flex;
   margin-right: auto;
+=======
+.wrap {
+  width: calc(100% / 3);
+}
+
+.logo-wrap {
+  padding-left: 40px;
+  justify-content: left;
+  // margin-right: 433px;
+  // flex-basis: 25%;
+>>>>>>> Stashed changes
 }
 
 .logo {
@@ -24,6 +37,16 @@
   color: $blackBg;
 }
 
+<<<<<<< Updated upstream
+=======
+.navigation {
+  display: flex;
+  justify-content: center;
+  // margin-right: 375px;
+  // flex-basis: 50%;
+}
+
+>>>>>>> Stashed changes
 .nav-list {
   display: flex;
   gap: 31px;
@@ -42,10 +65,23 @@
   color: $accentColor;
 }
 
+<<<<<<< Updated upstream
 .header-btn {
   padding: 14px 24px;
   min-width: 150px;
+=======
+.btn-wrap {
+  display: flex;
+  justify-content: end;
+  // flex-basis: 25%;
+}
 
+.header-btn {
+  padding: 10px 20px 19px;
+  max-width: 140px;
+>>>>>>> Stashed changes
+
+  font-family: 'Homemade Apple';
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
