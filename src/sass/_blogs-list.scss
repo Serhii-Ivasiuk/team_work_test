@@ -1,0 +1,41 @@
+.blogs-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-item {
+  flex-basis: calc((100% - 30px) / 2);
+
+  padding: 48px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.blogs-item .title {
+  margin-bottom: 16px;
+
+  font-size: 24px;
+  line-height: 140.62%;
+
+  background-color: #fff;
+}
+
+.blogs-item .text {
+  margin-bottom: 16px;
+
+  font-size: 18px;
+  line-height: 140.62%;
+}
+
+.blogs-item .link {
+  font-size: 14px;
+  line-height: 140.62%;
+
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.blogs-item .link:hover,
+.blogs-item .link:focus {
+  color: #f7941e;
+}

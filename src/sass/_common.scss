@@ -1,6 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-p, h2 {
+p,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -22,9 +23,9 @@ img {
 }
 
 .container {
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .link {
