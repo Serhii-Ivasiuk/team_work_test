@@ -49,14 +49,15 @@
   padding-bottom: 14px;
 }
 
-hr {
-  display: block;
+.divider {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
 
-  size: 1px;
-  color: #000000;
-  width: 69.4444%;
+  // margin: 0 auto;
+  width: 1000px;
+  height: 0px;
+
+  border-bottom: 1px solid #000000;
 }
