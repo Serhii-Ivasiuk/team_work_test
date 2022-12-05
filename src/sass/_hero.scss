@@ -1,20 +1,20 @@
 .hero-container {
   display: flex;
-  justify-content: right;
   background-color: $grayBg;
   width: 1440px;
   margin: 0 auto;
 }
 
 .hero-left-part {
-  width: 721px;
-  margin-right: 125px;
-  margin-left: 162px;
+  flex-basis: 50%;
+  padding-left: 162px;
+  padding-right: 126px;
+  padding-top: 154px;
+  padding-bottom: 135px;
 }
 
 .hero-title {
-  margin-top: 154px;
-  margin-bottom: 45px;
+  margin-bottom: 36px;
   font-weight: 600;
   font-size: 56px;
   line-height: calc(69 / 56);
@@ -45,4 +45,8 @@
   color: $accentColor;
   background-color: $whiteColor;
   border-color: $accentColor;
+}
+
+.image-aside {
+  flex-basis: 50%;
 }
