@@ -1,9 +1,10 @@
+.hero-section {
+  background-color: $grayBg;
+}
+
 .hero-container {
   display: flex;
-  justify-content: right;
-  background-color: $grayBg;
-  width: 1440px;
-  margin: 0 auto;
+  padding: 0;
 }
 
 .hero-left-part {
@@ -40,6 +41,8 @@
   border-color: transparent;
   border-radius: 5px;
   cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .hero-button:hover,
