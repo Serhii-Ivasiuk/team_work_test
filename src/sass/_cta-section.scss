@@ -1,15 +1,18 @@
 .cta-section {
+  padding-top: 80px;
+  padding-bottom: 70px;
+
   background-color: $accentColor;
 }
+
 .cta-container {
+  width: 1170px;
   display: flex;
-  padding-right: 235px;
-  padding-left: 235px;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cta-title {
-  padding-top: 81px;
   margin: 0;
   font-size: 32px;
   line-height: 1.41;
@@ -17,7 +20,6 @@
 }
 
 .sign-up {
-  padding-bottom: 69px;
   margin: 0;
   font-size: 32px;
   line-height: 1.41;
