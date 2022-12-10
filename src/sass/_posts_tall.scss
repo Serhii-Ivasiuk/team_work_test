@@ -1,8 +1,16 @@
 /*Posts Tall*/
+.posts {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.posts-container {
+  width: 1170px;
+}
+
 .posts-title {
   margin-top: 0;
   margin-bottom: 23px;
-  padding-top: 96px;
 
   font-size: 32px;
   line-height: calc(38 / 32);
@@ -21,7 +29,6 @@
 .posts-list {
   display: flex;
   gap: 30px;
-  padding-bottom: 120px;
 }
 
 .posts-item {
