@@ -1,0 +1,108 @@
+.footer {
+  background-color: $cardBg;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 38px;
+}
+
+.links-in-footer {
+  display: flex;
+
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.4286;
+}
+
+.left-links > li {
+  margin-right: 81px;
+}
+
+.right-links > li {
+  margin-right: 54px;
+}
+
+.left-links > li:last-child,
+.right-links > li:last-child {
+  margin-right: 0;
+}
+
+.logo-in-footer {
+  margin-left: 141px;
+  margin-right: 141px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+
+  font-family: 'Homemade Apple';
+  font-size: 18px;
+  line-height: 2.17;
+  text-align: center;
+  color: $accentColor;
+}
+
+.menu-link-in-footer {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.divider {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 56px;
+  // margin: 0 auto;
+  width: 1000px;
+  height: 0px;
+
+  border-bottom: 1px solid #000000;
+}
+.social-icon {
+  display: flex;
+  fill: currentColor;
+}
+
+.footer-icon-wrapper {
+  margin-bottom: 73px;
+}
+.list-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-item-icon:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #000000;
+}
+
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+  stroke: #F7941E;
+}
+.lower-footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 35;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 140.62%;
+  text-align: center;
+  background-color: $cardBg;
+}
+.copyrigth{
+  margin-right: 14px;
+}

@@ -25,6 +25,13 @@
   line-height: 2.17;
 
   color: $blackBg;
+
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation {
@@ -44,11 +51,15 @@
 
   font-size: 18px;
   line-height: 1.22;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: $accentColor;
+  transform: translateY(-5px) scale(1.15);
 }
 
 .btn-wrap {
@@ -67,6 +78,9 @@
 
   color: $accentColor;
   border-color: $accentColor;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-btn:hover,

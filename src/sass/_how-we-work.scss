@@ -1,41 +1,45 @@
-.work-container{
-    width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+.work-container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 
-    background-color: $grayBg;
+  background-color: $grayBg;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.work-content{
-    padding: 162px 166px 102px 112px;
+.work-content {
+  flex-basis: 50%;
+  padding: 162px 166px 102px 112px;
 }
-.work-heading{
-    font-size: 32px;
+.work-heading {
+  font-size: 32px;
 }
-.work-text{
-    margin-top: 23px;
-    margin-bottom: 35px;
-
-    font-size: 20px;
+.work-text {
+  margin-top: 23px;
+  margin-bottom: 35px;
 }
-.work-button{
-    padding: 21px 47px;
-    color: $accentColor;
+.work-button {
+  padding: 21px 47px;
+  color: $accentColor;
 
-    border: 1px solid $accentColor;
-    background-color: transparent;
-    border-radius: 5px;
+  border: 1px solid $accentColor;
+  background-color: transparent;
+  border-radius: 5px;
 
-    text-transform: uppercase;
-    font-size: 18px;
+  text-transform: uppercase;
+  font-size: 18px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
-.work-button:hover, .work-button:focus{
-    background-color: $blackBg;
-    color: $whiteColor;
-    
-    border-color: $blackBg;
+.work-button:hover,
+.work-button:focus {
+  background-color: $blackBg;
+  color: $whiteColor;
+
+  border-color: $blackBg;
+}
+
+.image-aside {
+  flex-basis: 50%;
 }

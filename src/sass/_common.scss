@@ -1,7 +1,12 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 p,
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -26,7 +31,6 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 5px solid red;
 }
 
 .link {
@@ -63,4 +67,14 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.text--small {
+  font-size: 18px;
+  line-height: 1.35;
 }
