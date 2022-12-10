@@ -1,8 +1,9 @@
+.hero-section {
+  background-color: $grayBg;
+}
+
 .hero-container {
   display: flex;
-  background-color: $grayBg;
-  width: 1440px;
-  margin: 0 auto;
 }
 
 .hero-left-part {
