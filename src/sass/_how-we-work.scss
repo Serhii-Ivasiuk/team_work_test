@@ -1,10 +1,8 @@
-.work-container {
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-
+.work-section {
   background-color: $grayBg;
+}
 
+.work-container {
   display: flex;
   align-items: center;
 }
