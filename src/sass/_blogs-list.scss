@@ -12,17 +12,11 @@
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
-.blogs-item .title {
+.blog-card-title {
+  width: 464px;
   margin-bottom: 16px;
 
-  font-size: 24px;
-  line-height: 140.62%;
-
-  background-color: #ffffff;
-}
-
-.blogs-item .text {
-  margin-bottom: 16px;
+  @include fonts(24px, 700, 34px, $mainColor);
 }
 
 .blogs-item .link {

@@ -16,10 +16,7 @@
 
 .hero-title {
   margin-bottom: 36px;
-  font-weight: 600;
-  font-size: 56px;
-  line-height: calc(69 / 56);
-  color: $mainColor;
+  @include fonts(56px, 600, 69px, $mainColor);
 }
 
 .hero-text {
