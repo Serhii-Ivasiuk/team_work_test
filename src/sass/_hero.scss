@@ -28,24 +28,15 @@
 }
 
 .hero-button {
-  padding: 19px 24px;
-  width: 200px;
-  height: 60px;
-  font-size: 18px;
-  line-height: calc(21px / 18px);
-  text-transform: uppercase;
-  color: $whiteColor;
-  background-color: $accentColor;
-  border-color: transparent;
-  border-radius: 5px;
-  cursor: pointer;
+  @extend %btn;
+    color: $whiteColor;
+    background-color: $accentColor;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   color: $accentColor;
   background-color: $whiteColor;
-  border-color: $accentColor;
 }
 
 .image-aside {

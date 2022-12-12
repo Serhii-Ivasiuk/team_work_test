@@ -47,11 +47,30 @@ img {
   list-style: none;
 }
 
-.btn {
+%btn {
+  min-width: 200px;
+  min-height: 60px;
+  padding: 10px 20px;
+  
   border: 1px solid transparent;
-  background-color: transparent;
   border-radius: 5px;
+  border-color: $accentColor;
+  background-color: transparent;
+  
+  color: $accentColor;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+ 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $whiteColor;
+    background-color: $accentColor;
+  }
 }
 
 .visually-hidden {
