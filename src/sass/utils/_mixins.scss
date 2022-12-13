@@ -6,7 +6,7 @@
     font-weight: $weight;
   }
   @if $lh {
-    line-height: $lh / $size;
+    line-height: calc($lh / $size);
   }
   @if $colour {
     color: $colour;
