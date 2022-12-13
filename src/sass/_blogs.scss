@@ -8,14 +8,9 @@
 }
 
 .blogs-title {
-  font-size: 32px;
-  line-height: 38px;
-
-  text-align: center;
-  margin-top: 0;
   margin-bottom: 23px;
-
-  color: $mainColor;
+  line-height: calc(38 / 32);
+  text-align: center;
 }
 
 .blogs-text {
@@ -54,10 +49,7 @@
 .blog-title {
   margin-bottom: 60px;
 
-  font-size: 48px;
-  font-weight: 400;
-  line-height: calc(58 / 48);
-  color: $whiteColor;
+  @include fonts(48px, 400, 58px, $whiteColor);
 }
 
 .blog-link {
