@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -70,6 +70,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.title {
+  @include fonts(32px, 400, 45px, $mainColor);
 }
 
 .text {
