@@ -1,0 +1,59 @@
+.slick-slide {
+  text-align: center;
+}
+
+.slider.slick-slider {
+  width: 950px;
+  margin: 0 auto;
+}
+
+// Стилізація стілок
+.slider .slick-prev {
+  left: -50px;
+}
+
+.slider .slick-next {
+  right: -50px;
+}
+
+.slider .slick-prev:before,
+.slider .slick-next:before {
+  font-size: 40px;
+  color: $blackBg;
+  opacity: 0.7;
+}
+
+.slider .slick-prev:hover:before,
+.slider .slick-next:hover:before {
+  color: $accentColor;
+}
+
+.slider .slick-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+// Стилізація пагінації
+.slider .slick-dots {
+  bottom: -50px;
+}
+
+.slider.slick-slider.slick-dotted {
+  margin-bottom: 80px;
+}
+
+.slider .slick-dots li button:before {
+  font-size: 20px;
+  color: $blackBg;
+  opacity: 0.7;
+}
+
+.slider .slick-dots li.slick-active button:before {
+  color: $accentColor;
+  opacity: 1;
+}
+
+.slider .slick-dots li button:hover:before {
+  color: $accentColor;
+  transition: scale (1.2);
+}
