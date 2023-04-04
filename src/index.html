@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./sass/index.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,11 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Слайдер -->
     <link
       rel="stylesheet"
@@ -40,13 +34,6 @@
     </main>
     <!-- Scripts -->
     <include src="./partials/footer.html"></include>
-    <!-- Animation on scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true,
-      });
-    </script>
     <!-- Slick-slider -->
     <script
       type="text/javascript"
@@ -72,5 +59,6 @@
         autoplaySpeed: 3500,
       });
     </script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
